@@ -1,8 +1,4 @@
-var nombre;
-var apellido;
-var edad;
-var fechaDeNacimiento;
-var direccion;
+var nombre, apellido, edad, fechaDeNacimiento, direccion;
 
 nombre = "Carlos";
 apellido = "Gez";

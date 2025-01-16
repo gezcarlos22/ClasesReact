@@ -1,3 +1,3 @@
 # ClasesReact
 
-Codigo de clases de ComIT
+Codigo realizado en clases de ComIT y ejercicios de JS
