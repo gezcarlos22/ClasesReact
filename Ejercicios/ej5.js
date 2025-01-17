@@ -6,7 +6,7 @@ var direccion = "General artigas";
 
 console.log(nombre);
 console.log(apellido);
-console.log(edad)
+console.log(edad);
 console.log(fechaDeNacimiento);
 console.log(direccion);
 

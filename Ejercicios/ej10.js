@@ -1,2 +1,2 @@
 const saludo = "ECMAScript rocks!!";
-console.log(saludo)
+console.log(saludo);
