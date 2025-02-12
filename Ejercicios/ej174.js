@@ -34,9 +34,19 @@ const json = `{
 
 const objeto = JSON.parse(json);
 
-const character = characterData.character;
+const character = objeto.character
 console.log(`Nombre: ${character.name}`);
 console.log(`Clase: ${character.class}`);
 console.log(`Nivel: ${character.level}`);
 
+console.log("Inventario:")
+character.inventory.forEach(item => {
+  console.log(`- ${item.item}: ${item.effect}`);
+});
 
+console.log("Quests en progreso:");
+character.quests.forEach(quest => {
+  if (quest.status === "In Progress") {
+    console.log(`- ${quest.name}`);
+  }
+});

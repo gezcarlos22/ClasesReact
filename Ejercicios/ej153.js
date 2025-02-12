@@ -36,3 +36,8 @@ const aritmetica = {
     }
 }
 
+aritmetica.suma(2, 10);
+aritmetica.resta(10, 5);
+aritmetica.multiplicar(3, 100);
+aritmetica.dividir(40, 2);
+aritmetica.mostrarModulo(20, 2)
