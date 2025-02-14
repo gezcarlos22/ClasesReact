@@ -1,0 +1,4 @@
+// El valor de this dentro de una función tradicional puede variar dependiendo del contexto de la llamada. Esto puede ser útil en algunos casos, pero también puede llevar a confusiones.
+// El valor de this dentro de una arrow functions es heredado del contexto donde se define la función. Esto significa que no tiene su propio this, sino que utiliza el this del contexto envolvente.
+
+//En el contexto de iteradores como forEach, map, filter, etc., el valor de this dentro de la función de callback suele ser irrelevante, ya que no estamos trabajando con métodos de objetos. Por lo tanto, las arrow functions son una excelente opción debido a su sintaxis concisa y al hecho de que no tienen su propio this.

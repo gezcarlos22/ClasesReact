@@ -1,0 +1,2 @@
+console.log(this); 
+// Imprime el objeto global "{}", En el código console.log(this);, no estamos dentro de una función específica, sino en el contexto global. En este contexto, this suele hacer referencia al objeto global.
