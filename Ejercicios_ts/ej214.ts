@@ -30,6 +30,18 @@ function mostrarDatosCamion(camion: Camion) {
     console.log("Cantidad de acoplados:", camion.cantidadDeAcoplados);
 }
 
+function mostrarAutoOCamion (vehiculo: Auto | Camion) {
+    console.log("Marca:", vehiculo.marca);
+    console.log("Modelo:", vehiculo.modelo);
+    console.log("Color:", vehiculo.color);
+    console.log("Cantidad de pasajeros:", vehiculo.cantidadDePasajeros);
+    if ("esDescapotable" in vehiculo) {
+        console.log(`Es descapotable: ${vehiculo.esDescapotable}`);
+      } else {
+        console.log(`Cantidad de acoplados: ${vehiculo.cantidadDeAcoplados}`);
+      }
+}
+
 const auto: Auto = {
     marca: "Honda",
     modelo: "Civic",
@@ -46,7 +58,5 @@ const auto: Auto = {
     cantidadDeAcoplados: 2,
 };
 
-mostrarDatosAuto(auto);
-mostrarDatosCamion(camion);
-
-export default {}
+mostrarAutoOCamion(auto);
+mostrarAutoOCamion(camion);
